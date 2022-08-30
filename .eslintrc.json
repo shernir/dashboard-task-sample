@@ -60,6 +60,8 @@
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "no-unneeded-ternary": "off",
-    "eslint-plugin-jsx-a11y": "off"
+    "eslint-plugin-jsx-a11y": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
   }
 }
