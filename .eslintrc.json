@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "object-curly-newline": [
+      "error",
+      {
+        "ImportDeclaration": { "multiline": true },
+        "ObjectExpression": { "multiline": true },
+        "ObjectPattern": { "multiline": true }
+      }
+    ],
+    "no-param-reassign": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".tsx", ".jsx"] }
+    ],
+    "react/jsx-one-expression-per-line": ["error", { "allow": "literal" }],
+    "react/jsx-closing-bracket-location": ["error", "after-props"],
+    "react/jsx-max-props-per-line": ["error", { "maximum": 2 }],
+    "function-paren-newline": ["error", "multiline-arguments"],
+    "array-bracket-newline": ["error", { "multiline": true }],
+    "max-len": ["error", { "code": 110 }],
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/lines-between-class-members": [
+      "error",
+      { "exceptAfterSingleLine": true }
+    ],
+    "linebreak-style": "error",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "react/require-default-props": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-debugger": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/function-component-definition": "off",
+    "import/prefer-default-export": "off",
+    "arrow-body-style": "off",
+    "global-require": "off",
+    "react/destructuring-assignment": "off",
+    "no-shadow": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "no-unneeded-ternary": "off",
+    "eslint-plugin-jsx-a11y": "off"
+  }
+}
