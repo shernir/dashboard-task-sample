@@ -1,13 +1,19 @@
 import { useEffect } from 'react';
 import { Layout } from 'antd';
 import { useGetUserQuery } from '../../services/rtk.api';
+import { useAppDispatch } from '../../redux/hook';
+import { setUser } from '../../redux/slices/userSlice';
 
 const { Sider } = Layout;
 
 function SideMenu() {
+  const dispatch = useAppDispatch();
   const { data, error, isLoading } = useGetUserQuery(1);
   useEffect(() => {
-    console.log(data?.address.geo);
+    if (!error && !isLoading && data) {
+      debugger;
+      dispatch(setUser(data));
+    }
   }, [data]);
 
   return (

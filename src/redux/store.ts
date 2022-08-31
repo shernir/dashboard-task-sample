@@ -5,7 +5,7 @@ import { rtkQueryErrorLogger } from '../middlewares/error-handler.middleware';
 
 export const store = configureStore({
   reducer: {
-    user: userSlice,
+    userSlice: userSlice.reducer,
     [API.reducerPath]: API.reducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware()
