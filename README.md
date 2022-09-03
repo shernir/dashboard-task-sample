@@ -18,7 +18,7 @@ access the project  <a href="https://task-dashboard-ddc40.web.app/">here</a>
 
 # Code styling
 
-The solution use eslint to make sure to follow the best practice across the app, with <code>eslint-config-airbnb</code> and extra custom rules in <code>.eslintrc.json</code>
+The solution use eslint to follow the best practice across the app, with <code>eslint-config-airbnb</code> and extra custom rules in <code>.eslintrc.json</code>
 
 # Installation and Setup Instructions
 
