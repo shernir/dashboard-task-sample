@@ -7,13 +7,13 @@ export const rtkQueryErrorLogger: Middleware = () => (next) => (action) => {
   if (isRejectedWithValue(action)) {
     switch (action.payload.status) {
       case rejection.notFound:
-        console.error('NOT FOUND !');
+        console.log('NOT FOUND !');
         break;
       case rejection.unauthorized:
-        console.error('UNAUTHORIZED!');
+        console.log('UNAUTHORIZED!');
         break;
       case rejection.serverError:
-        console.error('INTERNAL SERVER ERROR!');
+        console.log('INTERNAL SERVER ERROR!');
         break;
 
       default:

@@ -1,0 +1,23 @@
+.UserMetaData {
+    &__avatar-container {
+        display: flex;
+        justify-content: center;
+
+        &__avatar {
+            width: 100px;
+        }
+    }
+
+    &__user-meta-data {
+        text-align: center;
+        margin: 10px 0;
+
+        small {
+            color: #999
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    }
+}

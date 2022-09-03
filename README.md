@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dashboard with side menu and content section, has two routes `/dashboard` and `/route`, and using an api call to get user deatils<br />
+The Dashboard use react and typescript with scss as preprocessor css
 
-## Available Scripts
+# Demo link
+
+access the project  <a href="https://task-dashboard-ddc40.web.app/">here</a>
+# Packages
+<ul>
+<li><b>Redux-toolkit:</b> includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic and has built in RTK query</li>
+<li><b>Redux-persist:</b> persist the store data to the localstorage</li>
+<li><b>Ant:</b> styling framework</li>
+<li><b>sass:</b> preprocessor css</li>
+<li><b>env-cmd:</b> manage environmental variables</li>
+<li><b>react-router-dom</b></li>
+</ul>
+
+# Code styling
+
+The solution use eslint to make sure to follow the best practice across the app, with <code>eslint-config-airbnb</code> and extra custom rules in <code>.eslintrc.json</code>
+
+# Installation and Setup Instructions
+
+Clone down this repository. You will need `node` and `yarn` installed globally on your machine.  
+
+Installation:
+
+`yarn install`
+
+To Run Test Suite:  
+
+`yarn test` 
+
+To Start Server:
+
+`yarn start` 
+
+To Visit App:
+
+`localhost:3000`  
+# Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start` - start the app with .env file
+### `yarn run test` - run unit testing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `yarn run start:test` - start the app with .env.test file
+### `yarn run start:prod` - start the app with .env.production file
+### `yarn run build` - build the project with .env.production file
+### `yarn run build:test` - the build the project with .env.test file
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Author
+Sherif Mounir
 
-### `yarn test`
+# License
+MIT license @<a href="www.find-sherif.com">author</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

@@ -1,4 +1,21 @@
 .Header {
     background: #fff;
     padding: 0;
+    box-shadow: 0 4px 6px -6px #222;
+
+    &__container {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &__item {
+            margin: 0 10px;
+
+            &__icon {
+                margin: 0 5px;
+            }
+        }
+    }
+
 }

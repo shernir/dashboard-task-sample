@@ -1,8 +1,10 @@
-import React from 'react';
+import './DashboardPage.scss';
 
 function DashboardPage() {
   return (
-    <div>DashboardPage</div>
+    <div className="Dashboard">
+      <h2>Dashboard Page</h2>
+    </div>
   );
 }
 

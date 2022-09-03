@@ -1,6 +1,10 @@
+import './ReportPage.scss';
+
 function ReportPage() {
   return (
-    <div>ReportPage</div>
+    <div className="Report">
+      <h2>Report Page</h2>
+    </div>
   );
 }
 
