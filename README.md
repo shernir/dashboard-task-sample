@@ -1,6 +1,6 @@
 # Project Overview
 
-Dashboard with side menu and content section, has two routes `/dashboard` and `/route`, and using an api call to get user deatils<br />
+Dashboard with side menu and content section, has two routes `/dashboard` and `/route`, and using an api call to get user deatils,
 The Dashboard use react and typescript with scss as preprocessor css
 
 # Demo link
@@ -43,13 +43,12 @@ To Visit App:
 
 In the project directory, you can run:
 
-### `yarn start` - start the app with .env file
-### `yarn run test` - run unit testing
-
-### `yarn run start:test` - start the app with .env.test file
-### `yarn run start:prod` - start the app with .env.production file
-### `yarn run build` - build the project with .env.production file
-### `yarn run build:test` - the build the project with .env.test file
+`yarn start` - start the app with .env file </br>
+`yarn run test` - run unit testing</br>
+`yarn run start:test` - start the app with .env.test file</br>
+`yarn run start:prod` - start the app with .env.production file</br>
+`yarn run build` - build the project with .env.production file</br>
+`yarn run build:test` - the build the project with .env.test file</br>
 
 ## Author
 Sherif Mounir
